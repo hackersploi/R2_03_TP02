@@ -7,7 +7,11 @@ public class Main {
 
     // Retourne la meilleure note
     public static double meilleureNote(double note1, double note2) {
-        return 0; // À compléter
+        if (note1 > note2) {
+           return note1;
+    } else {
+    return note2;
+    }
     }
 
     /*
@@ -15,8 +19,8 @@ public class Main {
      * Attention : chacun ajoute sa ligne
      */
     public static void infosBinome() {
-        // System.out.println("Nom Prénom 1");
-        // System.out.println("Nom Prénom 2");
+           System.out.println("KWIZERA Henry");
+           System.out.println("Alexandra Pierrot");
     }
 
     public static void main(String[] args) {
