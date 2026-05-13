@@ -1,3 +1,5 @@
+feature-doc
+//Modification faite par moi pour le TP
 public class Main {
 
     // Calcule la moyenne de deux notes
@@ -34,3 +36,4 @@ public class Main {
         infosBinome();
     }
 }
+main
